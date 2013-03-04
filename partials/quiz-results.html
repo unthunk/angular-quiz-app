@@ -1,0 +1,12 @@
+<div data-ng-controller="QuizResults">
+	<h1>You are...</h1>
+	<div class="hero-unit">
+		<div data-ng-repeat="answer in quiz.responses | filter:quizForm.quizAnswer">
+			<h2>{{answer.name}}</h2>
+			<img data-ng-src="{{answer.img}}" alt="{{answer.name}}" />
+			<p>{{answer.description}}</p>
+		</div>
+		<p><a href="#/quiz/{{quiz.id}}">Take this quiz again</a></p>
+	</div>
+	<p><a href="/">Try another quiz</a></p>
+</div>

@@ -1,0 +1,84 @@
+{
+	"id": "what-comic-character-are-you",
+	"title": "What comic character are you?",
+	"description": "Picture yourself in ink with this cool quiz!",
+	"question": "Which statement best describes you?",
+	"img": "img/test.png",
+	"button": "Who am I?",
+	"answers": [
+		{
+			"label": "I love lasagna. And sleeping",
+			"id": 6
+		},
+		{
+			"label": "I have a slingshot and I'm not afraid to use it.",
+			"id": 2
+		},
+		{
+			"label": "Some might say I have an overative imagination.",
+			"id": 7
+		},
+		{
+			"label": "Long naps and sanwiches are kinda my thing.  Getting to work on time is not.",
+			"id": 4
+		},
+		{
+			"label": "My dog might be plotting to take over corporate America.",
+			"id": 5
+		},
+		{
+			"label": "Premature balding is the least of my worries.",
+			"id": 1
+		},
+		{
+			"label": "There's no time for bathing when there's sacking and looting to be done!",
+			"id": 3
+		}
+	],
+	"responses":
+	[
+		{
+			"name": "Charlie Brown",
+			"img": "img/CharlieBrown.jpg",
+			"description": "Not many people can pull of being neurotic and affable.  Now if you could just kick that football...",
+			"id": 1
+		},
+		{
+			"name": "Dennis the Menace",
+			"img": "img/DennisTheMenace.gif",
+			"description": "Neighbors beware! Even if you land in the time out chair, you still do things your way.",
+			"id": 2
+		},
+		{
+			"name": "Hagar the Horrible",
+			"img": "img/hagar.jpg",
+			"description": "The only bathing you need is bathing your thirst with a cup of grog.",
+			"id": 3
+		},
+		{
+			"name": "Dagwood Bumstead",
+			"img": "img/Dagwood.png",
+			"description": "You're a culinary legend who's more focused on enjoying life than paying attention to the clock. Now if you could just stop crashing into the mailman.",
+			"id": 4
+		},
+		{
+			"name": "Dilbert",
+			"img": "img/dilbert.jpg",
+			"description": "Facepalms are your speciality thanks to pointy haired boss.",
+			"id": 5
+		},
+		{
+			"name": "Garfield",
+			"img": "img/garfield.jpg",
+			"description": "Life is rough without sleep and lasagna.",
+			"id": 6
+		}
+		,
+		{
+			"name": "Calvin",
+			"img": "img/calvin.jpg",
+			"description": "You see the world with a tiger's eyes. Now if only everyone else could.",
+			"id": 7
+		}
+	]
+}

@@ -1,0 +1,9 @@
+<div data-ng-controller="QuizHome">
+	<h1>Hi, Take a Quiz!</h1>
+	{{doodad}}
+	<div class="well" data-ng-repeat="quiz in quizzes">
+			<h4>{{quiz.description}}</h4>
+			<a href="#/quiz/{{quiz.id}}"><img data-ng-src="{{quiz.img}}" alt="{{quiz.title}}" /></a>
+			<p><a href="#/quiz/{{quiz.id}}">{{quiz.title}}</a></p>
+	</div>
+</div>

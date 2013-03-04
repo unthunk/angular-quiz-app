@@ -1,0 +1,13 @@
+<div data-ng-controller="QuizDetail">
+	<h1>{{quiz.title}}</h1>
+	<div class="hero-unit">
+		<h4>{{quiz.question}}</h4>
+		<form data-ng-submit="submit()" data-ng-controller="QuizCtrl">
+			<p ng-repeat="answer in quiz.answers">
+				<input type="radio" name="quizAnswer" id="quiz-answer-{{answer.id}}" value="{{answer.id}}" data-ng-model="$parent.quizForm.quizAnswer" />
+				<label for="quiz-answer-{{answer.id}}">{{answer.label}}</label>
+			</p>
+			<p><input type="submit" value="{{quiz.button}}" class="btn btn-primary"></p>
+		</form>
+	</div>
+</div>
